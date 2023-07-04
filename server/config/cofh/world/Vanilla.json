@@ -88,7 +88,7 @@
         "template": "uniform",
         "block": "redstone_ore",
         "material": "minecraft:stone",
-        "clusterSize": 32,
+        "clusterSize": 22,
         "numClusters": 14,
         "minHeight": 0,
         "maxHeight": 64,
