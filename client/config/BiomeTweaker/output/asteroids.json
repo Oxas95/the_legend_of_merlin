@@ -1,6 +1,6 @@
 
 {
-  "ID": 104,
+  "ID": 243,
   "Name": "asteroids",
   "Class": "micdoodle8.mods.galacticraft.planets.asteroids.world.gen.BiomeGenBaseAsteroids",
   "Color": 0,
@@ -19,11 +19,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
-    "LUSH",
-    "OCEAN",
-    "RIVER",
-    "FOREST"
+    "DRY",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -51,6 +48,12 @@
       "Weight": 2000,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlitz",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
     }
   ],
   "Spawnable Water Creatures": [],

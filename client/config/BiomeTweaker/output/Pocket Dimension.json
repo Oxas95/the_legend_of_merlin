@@ -1,8 +1,8 @@
 
 {
-  "ID": 99,
+  "ID": 255,
   "Name": "Pocket Dimension",
-  "Class": "net.gtn.dimensionalpocket.common.core.BiomeHelper$1",
+  "Class": "StevenDimDoors.mod_pocketDim.world.BiomeGenPocket",
   "Color": 0,
   "Root Height": 0.1,
   "Height Variation": 0.2,
@@ -19,94 +19,19 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MAGICAL"
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
-  "Spawnable Creatures": [
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntitySheep",
-      "Weight": 12,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityPig",
-      "Weight": 10,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityChicken",
-      "Weight": 10,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityCow",
-      "Weight": 8,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    }
-  ],
+  "Spawnable Creatures": [],
   "Spawnable Monsters": [
     {
-      "Entity Class": "net.minecraft.entity.monster.EntitySpider",
-      "Weight": 100,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
-      "Weight": 100,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
-      "Weight": 100,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
-      "Weight": 100,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntitySlime",
-      "Weight": 100,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlitz",
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityWitch",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
     }
   ],
-  "Spawnable Water Creatures": [
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
-      "Weight": 10,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    }
-  ],
-  "Spawnable Cave Creatures": [
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityBat",
-      "Weight": 10,
-      "Min Group Count": 8,
-      "Max Group Count": 8
-    }
-  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
   "Tweaked": false
 }
