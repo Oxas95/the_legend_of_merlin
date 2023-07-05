@@ -1,33 +1,44 @@
 
 {
-  "ID": 250,
-  "Name": "Canyon",
-  "Class": "biomesoplenty.common.biome.overworld.BiomeGenCanyon",
-  "Color": 11836528,
-  "Root Height": 5.0,
-  "Height Variation": 0.025,
-  "Top Block": "BiomesOPlenty:hardDirt",
-  "Filler Block": "BiomesOPlenty:hardDirt",
+  "ID": 104,
+  "Name": "Mangrove",
+  "Class": "biomesoplenty.common.biome.overworld.sub.BiomeGenMangrove",
+  "Color": 7251289,
+  "Root Height": 0.0,
+  "Height Variation": 0.2,
+  "Top Block": "minecraft:sand",
+  "Filler Block": "minecraft:sand",
   "Actual Filler Block": "minecraft:stone",
   "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
-  "Temperature": 1.0,
-  "Humidity": 0.3,
+  "Temperature": 0.8,
+  "Humidity": 0.9,
   "Water Tint": 16777215,
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "SPARSE",
-    "DRY",
-    "MOUNTAIN",
-    "HILLS",
-    "SANDY"
+    "WET",
+    "LUSH",
+    "OCEAN",
+    "RIVER",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
+    {
+      "Entity Class": "com.emoniph.witchery.entity.EntityCovenWitch",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.emoniph.witchery.entity.EntityGoblin",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
     {
       "Entity Class": "am2.entities.EntityDryad",
       "Weight": 5,
@@ -79,6 +90,12 @@
       "Max Group Count": 1
     },
     {
+      "Entity Class": "biomesoplenty.common.entities.EntityJungleSpider",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
       "Entity Class": "am2.entities.EntityManaElemental",
       "Weight": 2,
       "Min Group Count": 1,
@@ -109,34 +126,10 @@
       "Max Group Count": 3
     },
     {
-      "Entity Class": "am2.entities.EntityEarthElemental",
-      "Weight": 2,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
       "Entity Class": "tconstruct.world.entity.BlueSlime",
       "Weight": 1,
       "Min Group Count": 4,
       "Max Group Count": 20
-    },
-    {
-      "Entity Class": "tconstruct.world.entity.BlueSlime",
-      "Weight": 1,
-      "Min Group Count": 4,
-      "Max Group Count": 20
-    },
-    {
-      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlitz",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBasalz",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 4
     }
   ],
   "Spawnable Water Creatures": [
@@ -145,6 +138,24 @@
       "Weight": 10,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "fossilsarcheology.server.entity.mob.EntitySturgeon",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "fossilsarcheology.server.entity.mob.EntityCoelacanth",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "fossilsarcheology.server.entity.mob.EntityNautilus",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawnable Cave Creatures": [
@@ -153,18 +164,6 @@
       "Weight": 10,
       "Min Group Count": 8,
       "Max Group Count": 8
-    },
-    {
-      "Entity Class": "com.emoniph.witchery.entity.EntitySpirit",
-      "Weight": 1,
-      "Min Group Count": 2,
-      "Max Group Count": 5
-    },
-    {
-      "Entity Class": "com.emoniph.witchery.entity.EntitySpirit",
-      "Weight": 1,
-      "Min Group Count": 2,
-      "Max Group Count": 5
     },
     {
       "Entity Class": "com.emoniph.witchery.entity.EntitySpirit",

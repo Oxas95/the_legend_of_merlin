@@ -1,67 +1,32 @@
 
 {
-  "ID": 238,
-  "Name": "Lavender Fields",
-  "Class": "biomesoplenty.common.biome.overworld.BiomeGenLavenderFields",
-  "Color": 11035852,
-  "Root Height": 0.125,
-  "Height Variation": 0.05,
-  "Top Block": "minecraft:grass",
-  "Filler Block": "minecraft:dirt",
+  "ID": 44,
+  "Name": "Crag",
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenCrag",
+  "Color": 5209457,
+  "Root Height": 2.0,
+  "Height Variation": 3.0,
+  "Top Block": "BiomesOPlenty:cragRock",
+  "Filler Block": "BiomesOPlenty:cragRock",
   "Actual Filler Block": "minecraft:stone",
   "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
-  "Water Color": "16777215",
-  "Temperature": 0.6,
-  "Humidity": 0.7,
-  "Water Tint": 16777215,
+  "Water Color": "944693",
+  "Temperature": 1.0,
+  "Humidity": 0.0,
+  "Water Tint": 944693,
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPARSE",
-    "LUSH",
-    "PLAINS"
+    "DRY",
+    "SPOOKY",
+    "DEAD",
+    "MOUNTAIN",
+    "WASTELAND"
   ],
   "BiomeManager Entries": {},
-  "Spawnable Creatures": [
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntitySheep",
-      "Weight": 12,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityPig",
-      "Weight": 10,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityChicken",
-      "Weight": 10,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityCow",
-      "Weight": 8,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "com.emoniph.witchery.entity.EntityGoblin",
-      "Weight": 3,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "am2.entities.EntityDryad",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    }
-  ],
+  "Spawnable Creatures": [],
   "Spawnable Monsters": [
     {
       "Entity Class": "net.minecraft.entity.monster.EntitySpider",
@@ -136,32 +101,43 @@
       "Max Group Count": 3
     },
     {
+      "Entity Class": "am2.entities.EntityEarthElemental",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
       "Entity Class": "tconstruct.world.entity.BlueSlime",
       "Weight": 1,
       "Min Group Count": 4,
       "Max Group Count": 20
     },
     {
-      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlitz",
+      "Entity Class": "tconstruct.world.entity.BlueSlime",
+      "Weight": 1,
+      "Min Group Count": 4,
+      "Max Group Count": 20
+    },
+    {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBasalz",
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 4
     }
   ],
-  "Spawnable Water Creatures": [
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
-      "Weight": 10,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    }
-  ],
+  "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [
     {
       "Entity Class": "net.minecraft.entity.passive.EntityBat",
       "Weight": 10,
       "Min Group Count": 8,
       "Max Group Count": 8
+    },
+    {
+      "Entity Class": "com.emoniph.witchery.entity.EntitySpirit",
+      "Weight": 1,
+      "Min Group Count": 2,
+      "Max Group Count": 5
     },
     {
       "Entity Class": "com.emoniph.witchery.entity.EntitySpirit",

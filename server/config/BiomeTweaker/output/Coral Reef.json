@@ -1,11 +1,11 @@
 
 {
-  "ID": 129,
-  "Name": "Sunflower Plains",
-  "Class": "net.minecraft.world.biome.BiomeGenPlains",
-  "Color": 9286496,
-  "Root Height": 0.125,
-  "Height Variation": 0.05,
+  "ID": 126,
+  "Name": "Coral Reef",
+  "Class": "biomesoplenty.common.biome.overworld.ocean.BiomeGenCoralReef",
+  "Color": 18285,
+  "Root Height": -0.6,
+  "Height Variation": 0.1,
   "Top Block": "minecraft:grass",
   "Filler Block": "minecraft:dirt",
   "Actual Filler Block": "minecraft:stone",
@@ -13,47 +13,17 @@
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
-  "Temperature": 0.8,
-  "Humidity": 0.4,
+  "Temperature": 0.5,
+  "Humidity": 0.9,
   "Water Tint": 16777215,
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS"
+    "OCEAN",
+    "RIVER"
   ],
   "BiomeManager Entries": {},
-  "Spawnable Creatures": [
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntitySheep",
-      "Weight": 12,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityPig",
-      "Weight": 10,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityChicken",
-      "Weight": 10,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityCow",
-      "Weight": 8,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityHorse",
-      "Weight": 5,
-      "Min Group Count": 2,
-      "Max Group Count": 6
-    }
-  ],
+  "Spawnable Creatures": [],
   "Spawnable Monsters": [
     {
       "Entity Class": "net.minecraft.entity.monster.EntitySpider",
@@ -96,12 +66,6 @@
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlitz",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 4
     }
   ],
   "Spawnable Water Creatures": [
@@ -110,6 +74,24 @@
       "Weight": 10,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "fossilsarcheology.server.entity.mob.EntitySturgeon",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "fossilsarcheology.server.entity.mob.EntityCoelacanth",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "fossilsarcheology.server.entity.mob.EntityNautilus",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawnable Cave Creatures": [

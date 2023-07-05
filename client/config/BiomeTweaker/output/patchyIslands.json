@@ -19,15 +19,13 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SPARSE",
     "WET",
-    "DRY",
-    "SPOOKY",
-    "DEAD",
+    "LUSH",
     "OCEAN",
     "RIVER",
-    "MOUNTAIN",
-    "SWAMP",
-    "WASTELAND"
+    "PLAINS",
+    "SWAMP"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
